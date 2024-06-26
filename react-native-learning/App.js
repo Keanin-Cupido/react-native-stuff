@@ -6,6 +6,8 @@ export default function App() {
     <View style={styles.container}>
       <Text style={{color: 'white'}}>Open up App.js to start working on your app!</Text>
       <Text style={{color: 'white'}}>Hello, world. I'm new to React Native.</Text>
+      <Text style={{color: 'white'}}>Text 1</Text>
+      <Text style={{color: 'white'}}>Text 2</Text>
       <StatusBar style="auto" />
     </View>
   );
