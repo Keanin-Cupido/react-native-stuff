@@ -3,6 +3,9 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+      <View style={styles.navbar}>
+        <Text>Logo</Text>
+      </View>
       <Text style={{borderWidth: '1px', borderColor: 'green', padding: '16px'}}>Hello, world!</Text>
       <Text style={{backgroundColor: 'red'}}>Hello, world!</Text>
       <Button title="Tap Me!" />
@@ -17,4 +20,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  navbar: {
+    backgroundColor: 'black',
+    width: '100%',
+    height: '50px',
+  }
 });
