@@ -3,7 +3,8 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello, world!</Text>
+      <Text style={{borderWidth: '1px', borderColor: 'green', padding: '16px'}}>Hello, world!</Text>
+      <Text style={{backgroundColor: 'red'}}>Hello, world!</Text>
       <Button title="Tap Me!" />
     </View>
   );
